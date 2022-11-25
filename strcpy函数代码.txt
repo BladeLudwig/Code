@@ -24,4 +24,3 @@ char* StrCpy(char *src)
 	return p;
 }
 //本地编辑B21031816郭小岸
-
