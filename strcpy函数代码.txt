@@ -23,5 +23,5 @@ char* StrCpy(char *src)
 	p[len] = '\0';
 	return p;
 }
-//本地编辑
+//本地编辑B21031816郭小岸
 
