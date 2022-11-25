@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<string.h>
+# include <malloc.h>
+int main()
+{
+	
+	
+}
+char* StrCpy(char *src)
+{
+	int len = 0;
+	while ('\0' != *src)
+	{
+		len++;
+		src++;
+	}
+	int * p = (int *)malloc(len+1);
+	int i = 0;
+	for (i; i < len + 1; i++)
+	{
+		p[i] = src[i];
+	}
+	p[len] = '\0';
+	return p;
+}
+//本地编辑
+
